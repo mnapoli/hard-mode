@@ -17,6 +17,14 @@
         <severity>0</severity>
     </rule>
 
+    <!-- Do not align comments -->
+    <rule ref="Squiz.Commenting.FunctionComment.SpacingAfterParamName">
+        <severity>0</severity>
+    </rule>
+    <rule ref="Squiz.Commenting.FunctionComment.SpacingAfterParamType">
+        <severity>0</severity>
+    </rule>
+
     <!-- Require specific order of phpDoc annotations with empty newline between specific groups -->
     <rule ref="SlevomatCodingStandard.Commenting.DocCommentSpacing">
         <properties>
