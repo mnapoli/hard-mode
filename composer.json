@@ -1,5 +1,7 @@
 {
     "name": "mnapoli/hard-mode",
+    "type": "phpcodesniffer-standard",
+    "description": "Hard mode for PHP",
     "license": "MIT",
     "require": {
         "doctrine/coding-standard": "^5.0"
