@@ -1,4 +1,6 @@
 {
+    "name": "mnapoli/hard-mode",
+    "license": "MIT",
     "require": {
         "doctrine/coding-standard": "^5.0"
     }
