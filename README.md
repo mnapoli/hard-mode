@@ -10,8 +10,6 @@ Then write a `.phpcs.xml.dist` file:
 <?xml version="1.0"?>
 <ruleset>
     <arg name="basepath" value="."/>
-    <arg name="extensions" value="php"/>
-    <arg name="cache" value=".phpcs-cache"/>
 
     <file>src</file>
     <file>tests</file>
@@ -47,6 +45,8 @@ vendor/bin/pretty fix
 ```
 
 ## Advanced configuration
+
+Check out the [PHP CodeSniffer documentation](https://github.com/squizlabs/PHP_CodeSniffer/wiki) for all the options. You will find below documentation for common scenarios.
 
 To exclude some files from the analysis:
 
