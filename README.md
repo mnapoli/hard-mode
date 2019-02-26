@@ -1,7 +1,7 @@
 ## Usage
 
 ```
-composer require --dev
+composer require --dev mnapoli/hard-mode
 ```
 
 Then write a `.phpcs.xml.dist` file:
