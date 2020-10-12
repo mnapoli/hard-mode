@@ -4,6 +4,6 @@
     "description": "Hard mode for PHP",
     "license": "MIT",
     "require": {
-        "doctrine/coding-standard": "^6.0"
+        "doctrine/coding-standard": "^8.0"
     }
 }
